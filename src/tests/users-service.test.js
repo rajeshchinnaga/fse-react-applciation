@@ -2,7 +2,10 @@ import {
   createUser,
   deleteUsersByUsername, findAllUsers,
   findUserById
-} from "../services/users-service";
+} from "../services/users-service.js";
+import 'regenerator-runtime/runtime'; 
+import '@testing-library/jest-dom/extend-expect';
+
 
 describe('createUser', () => {
   // sample user to insert
