@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://fse-node-nanda.herokuapp.com/api";
+const BASE_URL = "https://fse-node-a4-app.herokuapp.com/api";
 const USERS_API = `${BASE_URL}/users`;
 const LOGIN_API = `${BASE_URL}/login`;
 
