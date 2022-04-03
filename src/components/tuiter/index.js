@@ -14,7 +14,7 @@ import Lists from "../lists";
 import More from "../more";
 import {Login} from "../profile/login";
 import Signup from "../profile/signup";
-import TuitScreen from "../tuits/tuit-screen";
+import TuitScreen from "../tuits/tuits-screen";
 
 function Tuiter () {
   return(

@@ -1,12 +1,14 @@
 import axios from "axios";
 
-const BASE_URL = "https://fse-node-a4-app.herokuapp.com";
+const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
 
+//const BASE_URL = process.env.REACT_APP_BASE_URL;
+//const BASE_URL = "http://localhost:4000";
 const TUITS_API = `${BASE_URL}/api/tuits`;
 const USERS_API = `${BASE_URL}/api/users`;
 
 const api = axios.create({
-   withCredentials: true
+    withCredentials: true
 });
 
 export const findAllTuits = () =>
@@ -33,4 +35,6 @@ export const deleteTuit = (tid) =>
     api.delete(`${TUITS_API}/${tid}`)
         .then(response => response.data);
 
-
+export const deleteTuitByContent = (tuit) =>
+    api.get(`${TUITS_API}/${tuit}/delete`)
+        .then(response => response.data);
