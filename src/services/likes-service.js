@@ -2,7 +2,8 @@
    
 import axios from "axios";
 //const BASE_URL = "https://software-engineering-node-dev4.herokuapp.com"
-const BASE_URL = process.env.REACT_APP_BASE_URL;
+//const BASE_URL = process.env.REACT_APP_BASE_URL;
+const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
 const USERS_API = `${BASE_URL}/api/users`;
 const TUITS_API = `${BASE_URL}/api/tuits`;
 

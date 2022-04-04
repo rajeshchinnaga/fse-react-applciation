@@ -13,7 +13,6 @@ const TuitScreen = () => {
     return(
         <div>
             <Tuit tuit={tuit} likeTuit={() => {}}/>
-            <Tuit tuit={tuit} dislikeTuit={() => {}}/>
         </div>
     );
 };
