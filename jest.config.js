@@ -5,7 +5,7 @@ module.exports = {
 
 
   // This option sets the URL for the jsdom environment. It is reflected in properties such as location.href
-  testURL: 'https://fse-node-nanda.herokuapp.com',
+  testURL: "https://fse-node-a4-app.herokuapp.com",
 
 
 };
