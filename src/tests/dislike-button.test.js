@@ -5,6 +5,9 @@
  import { act } from 'react-dom/test-utils';
  import {screen, render, fireEvent, waitFor} from "@testing-library/react";
  import {HashRouter} from "react-router-dom";
+import 'regenerator-runtime/runtime';
+import React from 'react';
+import '@testing-library/jest-dom';
 
 const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
  const USERS_API = `${BASE_URL}/api/users`;
@@ -44,7 +47,7 @@ const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
          </HashRouter>
      ));
 
-     const dislikeStat = screen.getByText(/11/i);
+     const dislikeStat = screen.getByText(/5/i);
      expect(dislikeStat).toBeInTheDocument();
  })
 

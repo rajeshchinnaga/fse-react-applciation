@@ -3,6 +3,7 @@ import {screen, render} from "@testing-library/react";
 import {HashRouter} from "react-router-dom";
 import {findAllUsers} from "../services/users-service";
 import 'regenerator-runtime/runtime' ;
+import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
 
 
@@ -12,7 +13,7 @@ test('user list renders async', async () => {
       <HashRouter>
         <UserList users={users}/>
       </HashRouter>);
-    const linkElement = screen.getByText(/Forum/i);
+    const linkElement = screen.getByText(/alice/i);
     expect(linkElement).toBeInTheDocument();
   })
   

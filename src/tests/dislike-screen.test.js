@@ -3,6 +3,9 @@ import Profile from "../components/profile/index"
 import MyDislikes from "../components/profile/my-dislikes"
 import {screen, render} from "@testing-library/react";
 import {HashRouter} from "react-router-dom";
+import 'regenerator-runtime/runtime';
+import React from 'react';
+import '@testing-library/jest-dom';
 
 const MOCKED_USER = {username: "bob", _id: "234"};
 const MOCKED_TUIT =

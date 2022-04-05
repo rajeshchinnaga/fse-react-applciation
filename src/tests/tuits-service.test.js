@@ -175,9 +175,9 @@ describe('can retrieve all tuits with REST API', () => {
     // verify we found all tuits matching the ones added
     expect(tuitsFound[0]._id).toEqual(newTuit1._id);
     expect(tuitsFound[0].tuit).toEqual(newTuit1.tuit);
-    expect(tuitsFound[0].postedBy).toEqual(newUser._id);
+    expect(tuitsFound[0].postedBy).toEqual(newUser);
     expect(tuitsFound[1]._id).toEqual(newTuit2._id);
     expect(tuitsFound[1].tuit).toEqual(newTuit2.tuit);
-    expect(tuitsFound[1].postedBy).toEqual(newUser._id);
+    expect(tuitsFound[1].postedBy).toEqual(newUser);
   });
 });
