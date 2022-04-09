@@ -11,9 +11,9 @@ import 'regenerator-runtime/runtime'
 describe('can create tuit with REST API', () => {
   let newTuit;
   const temp = {
-    username: 'nanda',
-    password: 'nanda1234',
-    email: 'nanda@gmail.com'
+    username: 'rajesh',
+    password: 'rajesh1234',
+    email: 'rajesh@gmail.com'
   };
   const testtuit = {
     tuit : 'F-1 2022 championship starts',
@@ -53,9 +53,9 @@ describe('can create tuit with REST API', () => {
 
 describe('can delete tuit wtih REST API', () => {
   const temp = {
-    username: 'nanda',
-    password: 'nanda1234',
-    email: 'nanda@gmail.com'
+    username: 'rajesh',
+    password: 'rajesh1234',
+    email: 'rajesh@gmail.com'
   };
   const testTuit = {
     tuit : 'F-1 2022 championship starts',
@@ -90,9 +90,9 @@ describe('can delete tuit wtih REST API', () => {
 describe('can retrieve a tuit by their primary key with REST API', () => {
   let newTuit;
   const temp = {
-    username: 'nanda',
-    password: 'nanda1234',
-    email: 'nanda@gmail.com'
+    username: 'rajesh',
+    password: 'rajesh1234',
+    email: 'rajesh@gmail.com'
   };
   const testTuit = {
     tuit : 'F-1 2022 championship starts',
@@ -133,9 +133,9 @@ describe('can retrieve all tuits with REST API', () => {
   let newTuit1;
   let newTuit2;
   const temp = {
-    username: 'nanda',
-    password: 'nanda1234',
-    email: 'nanda@gmail.com'
+    username: 'rajesh',
+    password: 'rajesh1234',
+    email: 'rajesh@gmail.com'
   };
   const testTuit1 = {
     tuit : 'F-1 2022 championship starts',

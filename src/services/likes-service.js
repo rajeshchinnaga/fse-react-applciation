@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const BASE_URL = "http://localhost:4000";
-const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
+const BASE_URL = "https://cs5500-spring-fse-a1.herokuapp.com"
 const USERS_API = `${BASE_URL}/api/users`;
 const TUITS_API = `${BASE_URL}/api/tuits`;
 

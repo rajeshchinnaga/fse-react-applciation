@@ -9,7 +9,7 @@ import 'regenerator-runtime/runtime';
 import React from 'react';
 import '@testing-library/jest-dom';
 
-const BASE_URL = "https://fse-node-a4-app.herokuapp.com"
+const BASE_URL = "https://cs5500-spring-fse-a1.herokuapp.com"
  const USERS_API = `${BASE_URL}/api/users`;
  const TUITS_API = `${BASE_URL}/api/tuits`;
  console.error = () => {};
